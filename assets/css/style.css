@@ -25,8 +25,17 @@ header nav{
     background-color: black;
     color: white;
 }
+header nav a{
+    padding: .7rem;
+}
+header nav a:hover{
+    background-color: rgb(135,135,135); 
+}
+header nav a:visited{
+    background-color: rgb(135,135,135); 
+}
 ul{
-    list-style-type: none;
+    list-style-type: none; 
 }
 #slider{
     height: 30vh;
@@ -34,4 +43,123 @@ ul{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+#slider p{
+   display: none;
+}
+.burger{
+    padding: .7rem;
+}
+/*section band*/
+#band{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0.5rem;
+}
+#band p{
+    margin: 1.2rem auto;
+}
+#group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+}
+#band figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: xx-large;
+}
+#band figcaption{
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+}
+#band img{
+    padding-bottom: 1rem;
+    border-radius: 2.5%;
+    width: 100%;
+}
+.blur{
+    font-weight: lighter;
+    font-style: italic;
+}
+/*section tourdate*/
+#tourdate{
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+}
+#tourdate h2{
+    color:white;
+    padding-top:  4rem;
+
+}
+#tourdate>p{
+    color: grey;
+    font-style: italic;   
+}
+#tourdate p{
+    color: grey;
+}
+.soldout{
+    background-color: red;
+    color: white;
+    margin-left: 0.5rem;
+}
+.numbers{
+    background-color: black;
+    border-radius: 50%;
+    padding: .1rem .2rem;
+    color: white;
+}
+#calendar{
+    background-color: white;
+    width: 90%;
+    margin-bottom: 2rem;
+}
+#calendar p{
+    border-bottom: 0.1rem black solid;
+    padding-left: 1rem;
+    padding: .5rem;
+}
+#calendar p:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+#card{
+    width:95%;
+    background-color: black;
+    margin-bottom: 0.5rem;
+}
+#card img{
+    width: 100%;
+}
+#card button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 0.7rem;
+    margin-left: 0.5rem;
+    font-size: larger;
+    border: none;
+    
+}
+#card p, #card h3{
+    padding: 0.5rem;
+}
+.espace{
+    background-color: white;
+    border-bottom: .8rem black solid;
 }
