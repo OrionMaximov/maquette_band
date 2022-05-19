@@ -163,3 +163,194 @@ h1{
     background-color: white;
     border-bottom: .8rem black solid;
 }
+/*section contact*/
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    height: 110vh;
+}
+#contact img{
+    width:100%;
+    padding: 1rem 0;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    padding: 2rem auto;
+     
+}
+#poshtrois{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 1.5rem;
+}
+#contact button{
+    width:15%;
+    background-color: black;
+    color: white;
+    padding: .2rem .6rem;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+#contact h2{
+    font-size: 3rem;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: .2rem;
+}
+#contact input{
+    padding: .5rem;
+}
+#contact form>input:last-of-type{
+    margin: .4rem 0;
+margin-bottom: 1rem;
+}
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer div{
+    font-size: 1.8rem;
+}
+/*responsive*/
+
+@media screen and (min-width:576px) {
+    
+    header nav a{
+        display: flex;
+        color: white;
+        text-decoration: none;}
+    header ul{
+        display: flex;
+    }
+    .burger{
+        display: none;
+    }
+    header form{
+        display: flex;
+        background-color: black;
+        border:none;
+        color: white;
+        text-decoration: none
+    }
+    header input{
+        background-color: black;
+        color: white;
+        border: none;
+        margin-right: 1rem;
+    }
+    header button{
+        background-color: black;
+        color: white;
+        border: none;
+        padding-right: 1.5rem;
+    }
+    #slider p{
+        display: flex;
+        color: white;
+        padding:1rem;
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+    }
+    #slider p:first-of-type{
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+    #slider{
+        height: 70vh;
+    }
+    /*section band*/
+    #group{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+    }
+    #group figure{
+        width: 30%;
+    }
+    #band p{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+    }
+    #band{
+        margin-bottom: 5rem;
+    }
+    /*section tourdate*/
+    #tourdate{
+        height:80vh;
+    }
+    #tourdate h2{
+        padding: 1.5rem;
+    }
+    #tourdate>p:first-of-type{
+        padding-bottom: 2rem;
+    }
+    #card{
+        display: flex;
+        width: 70%;
+        justify-content: space-between;
+        height: 40vh;
+    }
+    #calendar{
+        width: 70%;
+    }
+    .espace{
+        width: 30%;
+    }
+    .espace p{
+        word-wrap: break-word;
+    }
+    /*section contact*/
+    #contact h2{
+        margin-top: 4rem ;
+    }
+    .flexcontact{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 40vh;
+        width: 100%;
+        margin: .5rem auto;
+    }
+    #poshtrois{
+        width: 40%;
+        display: flex;
+        padding: .5rem 3rem;
+        font-size: 1.5rem;
+    }
+    #poshtrois i{
+         margin-right: .5rem;    
+    }
+    #flexinput{
+        display: flex;
+       justify-content: space-between;
+       
+    }
+    #contact form{
+        width: 40%;
+    }
+    #contact>p:first-of-type{
+        font-style: italic;
+        font-weight: 200;
+        font-size: 1rem;
+        padding-top: 1.5rem;
+    }
+    #contact img{
+        margin-bottom: 3rem;
+    }
+}
+/*fin*/

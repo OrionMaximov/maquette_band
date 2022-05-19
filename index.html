@@ -13,23 +13,23 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <nav>
             <ul>
-                <a href="">
+                <a href="#home">
                     <li>HOME</li>
                 </a>
-                <a href="">
+                <a href="#band">
                     <li>BAND</li>
                 </a>
-                <a href="">
+                <a href="#tourdate">
                     <li>TOUR</li>
                 </a>
-                <a href="">
+                <a href="#contact">
                     <li>CONTACT</li>
                 </a>
-                <a href="">
-                    <li>MORE+icone</li>
+                <a href="#card">
+                    <li>MORE <i class="fa-solid fa-caret-down"></i> </li>
                 </a>
             </ul>
             <form action="" method="post">
@@ -101,23 +101,34 @@
             </div>
         </section>
         <section id="contact">
-            <h2>Contact</h2>
-            <p></p>
-            <h3><i class="fa-solid fa-location-dot"></i></h3>
-            <h3><i class="fa-solid fa-phone"></i></h3>
-            <h3><i class="fa-solid fa-envelope"></i></h3>
-            <form action="">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <button type="submited"></buttontypesub>
-                <div><img src="" alt=""></div>
+            <h2>CONTACT</h2>
+            <p>Fan? Drop a note!</p>
+            <div class="flexcontact">
+                <div id="poshtrois">
+                   <p><i class="fa-solid fa-location-dot"></i> Chicago, Us</p>
+                 <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                <p><i class="fa-solid fa-envelope"></i>Email:mail@mail.com</p>
+                </div>
+                <form action="">
+                    <div id="flexinput"><input type="text" placeholder="Name" name="name">
+                        <input type="text" placeholder="Email" name="email"></div>
+                    <input type="text" placeholder="Message" name="message">
+                    <div class="button"><button type="submited">Send</button></div>
+            </div>
             </form>
+            <div><img src="./assets/img/map.jpg" alt=""></div>
         </section>
     </main>
     <footer>
-
+        <div><i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+            <i class="fa-brands fa-linkedin-in"></i></div>
+        powered by curly's friend
     </footer>
+
 </body>
 
 </html>
