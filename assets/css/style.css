@@ -37,6 +37,27 @@ header nav a:visited{
 ul{
     list-style-type: none; 
 }
+#moreBtn{
+    position: relative;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;   
+}
+#subMenu{
+    position: absolute;
+    top: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+#subMenu li{
+    color: black;
+}
+.hide{
+    height: 0;
+
+}
 #slider{
     height: 30vh;
     background-image: url("../img/la.jpg");

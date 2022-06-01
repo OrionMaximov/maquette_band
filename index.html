@@ -10,6 +10,7 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 
 <body>
@@ -28,9 +29,19 @@
                 <a href="#contact">
                     <li>CONTACT</li>
                 </a>
-                <a href="#card">
-                    <li>MORE <i class="fa-solid fa-caret-down"></i> </li>
-                </a>
+                    <li id="moreBtn"> MORE <i class="fa-solid fa-caret-right"></i>
+                        <ul id="subMenu" class="hide"><i class="fa-solid fa-caret-down"></i>
+                            <a href="">
+                                <li>Merchandises</li>
+                            </a>
+                            <a href="">
+                                <li>Extra</li>
+                            </a>
+                            <a href="">
+                                <li>Media</li>
+                            </a>
+                        </ul>
+                    </li>   
             </ul>
             <form action="" method="post">
                 <input type="text" name="search">
@@ -105,9 +116,9 @@
             <p>Fan? Drop a note!</p>
             <div class="flexcontact">
                 <div id="poshtrois">
-                   <p><i class="fa-solid fa-location-dot"></i> Chicago, Us</p>
-                 <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
-                <p><i class="fa-solid fa-envelope"></i>Email:mail@mail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Chicago, Us</p>
+                    <p><i class="fa-solid fa-phone"></i>Phone: +00 151515</p>
+                    <p><i class="fa-solid fa-envelope"></i>Email:mail@mail.com</p>
                 </div>
                 <form action="">
                     <div id="flexinput"><input type="text" placeholder="Name" name="name">
@@ -116,8 +127,10 @@
                     <div class="button"><button type="submited">Send</button></div>
             </div>
             </form>
+
             <div><img src="./assets/img/map.jpg" alt=""></div>
         </section>
+
     </main>
     <footer>
         <div><i class="fa-brands fa-facebook-square"></i>
